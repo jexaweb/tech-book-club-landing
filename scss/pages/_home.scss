@@ -128,7 +128,7 @@
     line-height: 1rem;
   }
 
-  ..about-section {
+  .about-section {
     background-position: top 10px;
   }
 }
@@ -256,12 +256,71 @@
 .contianor-cart {
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 2rem;
+  padding-bottom: 12rem;
 }
 
 .cart--name {
+  text-align: center;
+  padding-bottom: 6.4rem;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 4rem;
 }
 .cart {
-  width: 286px;
-  height: 358px;
+  width: 350px;
+  height: 390px;
+  border: 0.1rem solid $neutral-200;
+  background-color: $neutral-0;
+  padding: 2.4rem 2.4rem;
+  border-radius: 8px;
+  &:hover {
+    background: #faf5f3;
+    border: 1px solid #e6e1df;
+  }
+}
+
+.ection-cart {
+}
+.container {
+}
+.cart--name {
+}
+.contianor-cart {
+}
+.cart h3 {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  letter-spacing: -1px;
+  color: $neutral-900;
+}
+.cart strong {
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 4rem;
+  letter-spacing: -1px;
+}
+
+.cart p {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1rem;
+  letter-spacing: -0.5px;
+  color: $neutral-700;
+}
+.list {
+  padding-top: 3rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: $neutral-700;
+}
+
+.list li {
+  padding-left: 2rem;
+  background-image: url("../images/icon-check.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom 2.4rem;
+  padding-bottom: 2.4rem;
 }
