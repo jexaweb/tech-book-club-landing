@@ -30,8 +30,8 @@
 }
 .list__img1 {
   position: absolute;
-  top: 1rem;
-  right: 31rem;
+  bottom: 300px;
+  right: 500px;
 }
 .list__img2 {
   position: absolute;
@@ -113,7 +113,24 @@
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 395px) {
+  .highlight {
+    font-weight: 600;
+    font-size: $font-4;
+    line-height: $lh-3;
+    letter-spacing: $ls-2;
+    padding-bottom: 3rem;
+  }
+
+  .features-list-list {
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1rem;
+  }
+
+  ..about-section {
+    background-position: top 10px;
+  }
 }
 @media screen and (max-width: 566px) {
 }
@@ -225,7 +242,7 @@
 .arrow {
   background-image: url("../images/pattern-arrow.svg");
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: bottom top left;
 }
 
 @media screen and (max-width: 1158px) {
