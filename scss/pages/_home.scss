@@ -217,8 +217,14 @@
   background-position: top left;
 }
 
-@media screen and (max-width: 1107) {
+// @media screen and (max-width: 1107px) {
+//   .reading-journey {
+//     display: none !important;
+//   }
+// }
+
+@media screen and(max-width:1158px) {
   .reading-journey {
-    display: none;
+    display: none !important;
   }
 }
