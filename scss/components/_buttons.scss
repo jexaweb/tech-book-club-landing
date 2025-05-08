@@ -4,6 +4,9 @@
 }
 
 .btn--heade {
+  background-image: url("../images/icon-arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 2rem bottom 1.2rem;
   border: 2px solid #062630;
   color: $neutral-900;
   background-color: $light-salmon-50;
@@ -37,4 +40,15 @@
   line-height: 130%;
   letter-spacing: -1px;
   text-align: center;
+
+  &:hover {
+    background: linear-gradient(90deg, #385159 0%, #062630 100%);
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+  }
+}
+.btn--footer {
+  background-image: url("../images/icon-arrow-up.svg");
+  background-repeat: no-repeat;
+  background-position: right 2rem bottom 1.5rem;
 }
