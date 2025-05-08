@@ -45,4 +45,22 @@
   border-left: $neutral-900;
   border-right: $neutral-900;
   border-bottom: $neutral-900;
+  display: flex;
+}
+.footre__icons h4 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 120%;
+  letter-spacing: -1px;
+  color: $neutral-0;
+  margin-right: auto;
+}
+
+.icons-img {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.icons-img img:hover {
+  background-color: #15708e;
 }
