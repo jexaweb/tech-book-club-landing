@@ -75,7 +75,6 @@
   .footer__name {
     width: 30rem;
     text-align: center;
-    font-size: 5rem;
   }
   .footer {
     padding-top: 8rem;
@@ -91,5 +90,31 @@
     font-weight: 600;
     line-height: 130%;
     letter-spacing: -1px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    padding-top: 8rem;
+
+    background-color: $neutral-900;
+  }
+  .footer__name {
+    width: 20rem;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .btn {
+    padding: 21.5rem 6.4rem 21.5rem 24rem;
+  }
+
+  .footre__icons h4 {
+    margin-right: name;
+  }
+
+  .footre__icons {
+    display: flex;
+    flex-direction: column;
   }
 }
