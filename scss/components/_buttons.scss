@@ -17,3 +17,9 @@
   line-height: 1rem;
   padding: 1rem 3.9rem;
 }
+
+@media screen and (max-width: 1200px) {
+  .btn--main {
+    display: flex;
+  }
+}
