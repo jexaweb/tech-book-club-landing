@@ -329,3 +329,54 @@
   background-position: left bottom 2.4rem;
   padding-bottom: 2.4rem;
 }
+
+// aycns
+
+.aycin--icons {
+  padding-bottom: 12rem;
+
+  text-align: center;
+}
+.icons {
+  padding-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.aycin__titl {
+  font-family: $secondary-ff;
+  font-weight: 600;
+  font-size: $font-3;
+  letter-spacing: -1px;
+  color: $neutral-900;
+
+  padding-bottom: 3.2rem;
+}
+
+.aycin__tec {
+  font-weight: 400;
+  font-size: $font-7;
+  line-height: 2rem;
+  letter-spacing: -0.5px;
+  color: $neutral-700;
+}
+
+@media screen and (max-width: 900px) {
+  .aycin--icons {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .aycin__titl {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 110.00000000000001%;
+    letter-spacing: -1px;
+  }
+  .aycin__tec {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 140%;
+    list-style: -5px;
+  }
+}
